@@ -2,6 +2,10 @@ using UnityEngine;
 
 public class rolling : MonoBehaviour
 {
+    public float rollX;
+    public float rollY;
+    public float rollZ;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -11,6 +15,6 @@ public class rolling : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(5, 0, 0);
+        transform.Rotate(rollX, rollY, rollZ);
     }
 }
