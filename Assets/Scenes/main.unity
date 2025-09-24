@@ -136,6 +136,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ca3b2624566334da56819ca510db53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rollX: 2
+  rollY: 2
+  rollZ: 5
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,15 +513,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2761037220018110694, guid: c4b1c00942f3ed34b858f8734d0d8388, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2678285
+      value: -2.08
       objectReference: {fileID: 0}
     - target: {fileID: 2761037220018110694, guid: c4b1c00942f3ed34b858f8734d0d8388, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.01
+      value: 5.99
       objectReference: {fileID: 0}
     - target: {fileID: 2761037220018110694, guid: c4b1c00942f3ed34b858f8734d0d8388, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.4702656
+      value: 0.92
       objectReference: {fileID: 0}
     - target: {fileID: 2761037220018110694, guid: c4b1c00942f3ed34b858f8734d0d8388, type: 3}
       propertyPath: m_LocalRotation.w
